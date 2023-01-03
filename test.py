@@ -1,7 +1,3 @@
-#from CurseForgeAPy import CurseForgeAPI
-#import sys
-#
-#cf = CurseForgeAPI("$2a$10$GxPxxFjyKYllXjPmRdho..Hf.t5tEKVgmw4xhSP9Jnu8HlTtU64YW")
 import minecraft_launcher_lib as mf
 import uuid
 import subprocess
@@ -30,7 +26,7 @@ callback = {
     "setMax": set_max
 }
 
-#mf.forge.install_forge_version("1.16.5-36.2.39", "C:\\Users\\kiril\\Desktop\\MLP\\minecraft", callback = callback)
+mf.forge.install_forge_version("1.16.5-36.2.39", "C:\\Users\\kiril\\Desktop\\MLP\\minecraft", callback = callback)
 print("i'm alive!")
 UUID = uuid.uuid4().hex
 print(UUID)
